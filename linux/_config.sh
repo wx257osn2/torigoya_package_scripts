@@ -1,4 +1,4 @@
 #!/bin/bash
 
 # please set number of CPU core
-CPUCore=2
+CPUCore=32
