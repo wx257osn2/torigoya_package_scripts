@@ -222,7 +222,7 @@ function pack_edge_deb_from_dir() {
 
 function regenerate_proc_profiles() {
     cd /etc/proc_profiles
-    ./generate.sh -l /etc/apt_repository/available_package_tables
+    ./generate.sh -l /etc/apt_repository/available_package_table
 }
 
 function set_environment_from_json() {
