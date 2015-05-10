@@ -5,7 +5,7 @@ Program="boost"
 ProgramVersion="head"
 Toolset="gcc"
 ToolsetVersion="5.1.0"
-ToolsetBjamOption='cxxflags="-std=c++11"'
+ToolsetBjamOption='cxxflags="-std=c++11" linkflags="-L/usr/lib/x86_64-linux-gnu"'
 
 # call
 . ./cxx/boost/_build_boost.sh

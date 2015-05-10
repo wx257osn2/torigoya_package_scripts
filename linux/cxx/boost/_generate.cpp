@@ -15,7 +15,7 @@ ToolsetVersion=")" << toolset_version << R"("
     ofs << R"(ToolsetBjamOption='cxxflags="-std=c++11" cxxflags="-stdlib=libc++" linkflags="-stdlib=libc++" linkflags="-lc++" linkflags="-lc++abi"'
 )";
   else
-    ofs << R"(ToolsetBjamOption='cxxflags="-std=c++11"'
+    ofs << R"(ToolsetBjamOption='cxxflags="-std=c++11" linkflags="-L/usr/lib/x86_64-linux-gnu"'
 )";
   ofs << R"(
 # call
